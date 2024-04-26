@@ -1,0 +1,44 @@
+
+.ticket_item {
+    font-family: 'Open Sans';
+    max-width: 502px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border : 1px solid rgba(223,229,236,1);
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-transform: uppercase;
+    height: 184px;
+}
+.ticket_logo {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.ticket_price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(33,150,243,1);
+    padding: 25px 0 20px 25px;
+}
+.ticket_upper{
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(160,176,185,1);
+    padding-right:55px;
+    padding-left: 25px;
+    
+}
+.ticket_foot{
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(74,74,74,1);
+    padding-right:35px;
+    padding-left: 25px;
+}
+.ticket_foot:last-child {
+    padding-left: 30px;
+}
