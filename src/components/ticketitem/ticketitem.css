@@ -1,12 +1,12 @@
 
 .ticket_item {
     font-family: 'Open Sans';
-    max-width: 502px;
+    width: 502px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
     border : 1px solid rgba(223,229,236,1);
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
     position: relative;
     text-transform: uppercase;

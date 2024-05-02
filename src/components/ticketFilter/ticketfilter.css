@@ -1,0 +1,29 @@
+.ticket_filter {
+    text-align: center;
+    text-wrap: nowrap;
+    
+}
+.ticket_filter-btn {
+    font-weight: bold;
+    width: 168px;
+    height: 50px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(74,74,74,1);
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(223, 229, 236, 1);
+    text-transform: uppercase;
+    transition: 0.4s;
+    
+}
+.ticket_filter-btn:focus{
+    background: rgba(33, 150, 243, 1);
+    color: white;
+}
+.filter-left {
+    border-radius: 5px 0 0 5px;
+}
+.filter-right{ 
+    border-radius: 0 5px 5px 0 ;
+}
